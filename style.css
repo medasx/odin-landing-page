@@ -17,7 +17,7 @@ a.link {
 }  
 
 .link:hover {
-    color: white;
+    color: #fff;
 }
 
 ul {
@@ -36,7 +36,7 @@ ul {
 }
 
 .footer, .header {
-    background-color: #1f2937;
+    background-color: #191919;
     color: white;
 }
 
@@ -84,7 +84,7 @@ ul {
 }
 
 .title {
-    margin: 32px 0 32px 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,6 +94,37 @@ ul {
 
 .title img {
     height: auto;
-    width: 400px;
+    width: 350px;
+}
 
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 32px 0;
+}
+
+.card {
+    min-width: 200px;
+    min-height: 200px;
+    background-color: #feb81a;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 10em;
+}
+
+.card img {
+    margin: 8px;
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
 }
