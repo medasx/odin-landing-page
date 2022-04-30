@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
-    background-color: #191919;
+    background-color: #171717;
 }
 
 a.link {
@@ -12,6 +12,7 @@ a.link {
     color: #E5E7EB;
     text-decoration: none;
     border: 2px solid transparent;
+    text-shadow: 2px 2px 3px #ff750088;
 }  
 
 a.link:hover {
@@ -19,6 +20,7 @@ a.link:hover {
     border-radius: 15%;
     border: 2px solid #ff7500;
     background-color: #feb81a;
+    text-shadow: 2px 2px 3px #ff750088;
 }
 
 ul {
@@ -35,7 +37,7 @@ ul {
     font-size:36px; 
     font-weight: bolder;
     color: #F9FAF8;     
-    text-shadow: 2px 2px 3px #ff7500;
+    text-shadow: 2px 2px 3px #ff750088;
 }
 
 .footer, .header {
@@ -137,7 +139,10 @@ ul {
     max-width: 500px;
     padding-left: 48px;
     color: whitesmoke;
-    text-shadow: 2px 2px 3px #ff7500;
+}
+
+.header h1 {
+    text-shadow: 2px 2px 3px #ff750088;
 }
 
 
@@ -164,6 +169,7 @@ ul {
 
     font-size: 10em;
     border: 10px solid #ff7500;
+    text-shadow: 2px 2px 3px #ff750088;
 
 }
 
@@ -172,6 +178,13 @@ ul {
     width: auto;
     height: 200px;
     object-fit: cover;
+}
+
+.card-holder p {
+    margin: 8px 0;
+    font-size: 24px;
+    color: lightslategray;
+    text-shadow: 2px 2px 3px #ff775055;
 }
 
 .container {
@@ -220,7 +233,7 @@ ul {
 .sign-up-content .title {
     font-size: 24px;
     color: whitesmoke;
-    text-shadow: 2px 2px 3px #ff7500;
+    text-shadow: 2px 2px 3px #ff750088;
 }
 
 .sign-up-content .content {
