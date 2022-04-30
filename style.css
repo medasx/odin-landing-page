@@ -211,14 +211,14 @@ ul {
     color: lightslategray;
 }
 
-.sign-up {
-    margin: 32px 0;
-    padding: 32px 10%;
+#sign-up {
+    margin: 32px auto;
+    padding: 32px 64px;
     border: 10px solid #ff7500;
     background-color: #feb81a;
     border-radius: 50px;
 
-    width: 50%;
+    max-width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
